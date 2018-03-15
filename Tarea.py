@@ -3,6 +3,7 @@
 
 
 def probarDivisiones(): #Realiza divisiones con restas.
+    print("Bienvenido al programa para dividir")
     x = int(input("Dame el Divisor: "))
     y = int(input("Dame el Dividendo: "))
     residuo = x - y
@@ -30,6 +31,7 @@ def probarDivisiones(): #Realiza divisiones con restas.
 
 
 def encontrarMayor(): #De una lista de datos, busca el numero más alto
+    print("Bienvenido al programa de Encontrar mayores")
     x = int(input("Teclea un numero [teclea -1 para terminar]: "))
     y = x
     if x == -1:
