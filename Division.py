@@ -1,11 +1,15 @@
-def calcularDivisiones(dividendo, divisor):
-    cociente=0
-    while divisor<=dividendo:
-        cociente+=0
-        division=dividendo-divisor
-        if cociente>divisor:
-            cociente-=cociente-divisor
-        return cociente
+def calcularDivision(divisor, dividendo):
+    cociente= 0
+    sobrante=0
+    while divisor >= dividendo:
+        divisor = divisor - dividendo
+        cociente+= 1
+
+    return cociente
+
+
+
+
 
 
 
@@ -14,8 +18,10 @@ def calcularDivisiones(dividendo, divisor):
 
 
 def main():
+    divisor=int(input("Escribe el divisor:"))
+    dividendo=int(input("Escribe el dividendo:"))
 
-    print(calcularDivisiones(15,6))
+    print("La division de", divisor,"/",dividendo,"es:",calcularDivision(divisor,dividendo))
 
 
 
