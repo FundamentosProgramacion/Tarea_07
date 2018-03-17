@@ -34,7 +34,7 @@ def main():
             cosciente = calcularDivisión(divisor, dividendo)
             sobra = divisor - (cosciente * dividendo)
             print(divisor, "/", dividendo, "=", cosciente, ",sobra", sobra)
-        elif accion== 2:
+        elif accion== 2:#Calcula mayor
             mayor= calcularMayor()
             if mayor==-1:
                 print("No hay valor mayor")
