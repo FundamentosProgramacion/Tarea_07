@@ -1,5 +1,5 @@
 #Jossian Abimelec García Quijano
-
+#Encuentra el mayor entre los valores que encuentre el usuario
 
 def main():
     lista=[]
